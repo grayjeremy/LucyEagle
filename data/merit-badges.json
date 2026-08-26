@@ -1,0 +1,361 @@
+{
+  "badges": [
+    {
+      "name": "Coin Collecting",
+      "versionYear": 2024,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/coin-collecting/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Coin-Collecting.png"
+    },
+    {
+      "name": "Collections",
+      "versionYear": 2021,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/collections/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Collections.png"
+    },
+    {
+      "name": "Reptile and Amphibian Study",
+      "versionYear": 2023,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/reptile-and-amphibian-study/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Reptile-and-Amphibian.png"
+    },
+    {
+      "name": "Law",
+      "versionYear": 2024,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/law/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Law.png"
+    },
+    {
+      "name": "Stamp Collecting",
+      "versionYear": 2007,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Stamp-Collecting.png"
+    },
+    {
+      "name": "Emergency Preparedness",
+      "versionYear": 2018,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Emergency-Preparedness.png"
+    },
+    {
+      "name": "American Heritage",
+      "versionYear": 2014,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/american-heritage/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/American-Heritage.png"
+    },
+    {
+      "name": "Citizenship in the Nation",
+      "versionYear": 2022,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Citizenship-in-the-Nation.png"
+    },
+    {
+      "name": "Citizenship in the World",
+      "versionYear": 2016,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/citizenship-in-the-world/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Citizenship-in-the-World.png"
+    },
+    {
+      "name": "First Aid",
+      "versionYear": 2024,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/first-aid/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/First-Aid.png"
+    },
+    {
+      "name": "Art",
+      "versionYear": 2014,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/art/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Art.png"
+    },
+    {
+      "name": "Chemistry",
+      "versionYear": 2024,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/chemistry/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Chemistry.png"
+    },
+    {
+      "name": "Communication",
+      "versionYear": 2014,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/communication/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Communication.png"
+    },
+    {
+      "name": "Fingerprinting",
+      "versionYear": 2004,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Finger-Printing.png"
+    },
+    {
+      "name": "Geocaching",
+      "versionYear": 2019,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/geocaching/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Geocaching.png"
+    },
+    {
+      "name": "Horsemanship",
+      "versionYear": 2014,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/horsemanship/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Horsemanship.png"
+    },
+    {
+      "name": "Mammal Study",
+      "versionYear": 2015,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Mammal-Study.png"
+    },
+    {
+      "name": "Nuclear Science",
+      "versionYear": 2024,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Nuclear-Science.png"
+    },
+    {
+      "name": "Public Health",
+      "versionYear": 2021,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/public-health/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Public-Health.png"
+    },
+    {
+      "name": "Wood Carving",
+      "versionYear": 2015,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/wood-carving/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Wood-Carving.png"
+    },
+    {
+      "name": "Personal Fitness",
+      "versionYear": 2023,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/personal-fitness/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Personal-Fitness.png"
+    },
+    {
+      "name": "Painting",
+      "versionYear": 2020,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/painting/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Painting.png"
+    },
+    {
+      "name": "Welding",
+      "versionYear": 2012,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/welding/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Welding.png"
+    },
+    {
+      "name": "Insect Study",
+      "versionYear": 2024,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/insect-study/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Insect-Study.png"
+    },
+    {
+      "name": "Personal Management",
+      "versionYear": 2019,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/personal-management/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Personal-Management.png"
+    },
+    {
+      "name": "Sustainability",
+      "versionYear": 2024,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/sustainability/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Sustainability.png"
+    },
+    {
+      "name": "Music",
+      "versionYear": 2017,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/music/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Music.png"
+    },
+    {
+      "name": "Family Life",
+      "versionYear": 2023,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/family-life/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Family-Life.png"
+    },
+    {
+      "name": "Animal Science",
+      "versionYear": 2023,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/animal-science/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Animal-Science.png"
+    },
+    {
+      "name": "Scholarship",
+      "versionYear": 2005,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/scholarship/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Scholarship.png"
+    },
+    {
+      "name": "Camping",
+      "versionYear": 2024,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/camping/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Camping.png"
+    },
+    {
+      "name": "Forestry",
+      "versionYear": 2017,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/forestry/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Forestry.png"
+    },
+    {
+      "name": "Nature",
+      "versionYear": 2025,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/nature/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Nature.png"
+    },
+    {
+      "name": "Veterinary Medicine",
+      "versionYear": 2006,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Veterinary-Medicine.png"
+    },
+    {
+      "name": "Citizenship in the Community",
+      "versionYear": 2025,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/citizenship-in-the-community/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Citizenship-in-the-Community.png"
+    },
+    {
+      "name": "Citizenship in Society",
+      "versionYear": 2025,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/citizenship-in-society/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Citizenship-in-Society.png"
+    },
+    {
+      "name": "Environmental Science",
+      "versionYear": 2025,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/environmental-science/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Environmental-Science.png"
+    },
+    {
+      "name": "Scouting Heritage",
+      "versionYear": 2026,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Scouting-Heritage.png"
+    },
+    {
+      "name": "Railroading",
+      "versionYear": 2022,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/railroading/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Rail-Roading.png"
+    },
+    {
+      "name": "Swimming",
+      "versionYear": 2024,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/swimming/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Swimming.png"
+    },
+    {
+      "name": "Basketry",
+      "versionYear": 2015,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/basketry/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Basketry.png"
+    },
+    {
+      "name": "Geology",
+      "versionYear": 2026,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/geology/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Geology.png"
+    },
+    {
+      "name": "Oceanography",
+      "versionYear": 2026,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/oceanography/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Oceanography.png"
+    },
+    {
+      "name": "Pulp and Paper",
+      "versionYear": 2014,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/pulp-and-paper/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Pulp-and-Paper.png"
+    },
+    {
+      "name": "Textile",
+      "versionYear": 2004,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/textile/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Textile.png"
+    },
+    {
+      "name": "Landscape Architecture",
+      "versionYear": 2017,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/landscape-architecture/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Landscape-Architecture.png"
+    },
+    {
+      "name": "Pottery",
+      "versionYear": 2009,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/pottery/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Pottery.png"
+    },
+    {
+      "name": "Sculpture",
+      "versionYear": 2026,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/sculpture/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/08/Sculpture.png"
+    },
+    {
+      "name": "Astronomy",
+      "versionYear": 2025,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/astronomy/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Astronomy.png"
+    },
+    {
+      "name": "Cooking",
+      "versionYear": 2025,
+      "eagleRequired": true,
+      "url": "https://www.scouting.org/merit-badges/cooking/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Cooking.png"
+    },
+    {
+      "name": "Skating",
+      "versionYear": 2026,
+      "eagleRequired": false,
+      "url": "https://www.scouting.org/merit-badges/skating/",
+      "image": "https://www.scouting.org/wp-content/uploads/2022/09/Skating.png"
+    }
+  ]
+}

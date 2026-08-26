@@ -1,0 +1,208 @@
+{
+  "photos": [
+    {
+      "title": "The first campout",
+      "category": "Early Scouting",
+      "image": "assets/photos/aol-campout.jpg",
+      "alt": "Lucy fishing beside a pond during an Arrow of Light campout"
+    },
+    {
+      "title": "Arrow of Light class",
+      "category": "Early Scouting",
+      "image": "assets/photos/aol-class.jpg",
+      "alt": "Lucy standing with her Arrow of Light den"
+    },
+    {
+      "title": "A ranger encounter",
+      "category": "Troop Life",
+      "image": "assets/photos/park-rangers.jpg",
+      "alt": "Lucy and fellow Scouts smiling from a park ranger vehicle"
+    },
+    {
+      "title": "Ready for the trail",
+      "category": "Camping",
+      "image": "assets/photos/backpacking.jpg",
+      "alt": "Lucy wearing a full backpack before setting out on the trail"
+    },
+    {
+      "title": "Her first fish",
+      "category": "Early Scouting",
+      "image": "assets/photos/first-fish.jpg",
+      "alt": "A young Lucy proudly holding her first fish"
+    },
+    {
+      "title": "First merit badges",
+      "category": "Milestones",
+      "image": "assets/photos/first-merit-badges.jpg",
+      "alt": "Lucy in uniform displaying her first merit badges"
+    },
+    {
+      "title": "Lieutenant Lucy",
+      "category": "Troop Life",
+      "image": "assets/photos/lieutenant-lucy.jpg",
+      "alt": "Lucy trying on police equipment during a Scout activity"
+    },
+    {
+      "title": "Peterloon style",
+      "category": "Camping",
+      "image": "assets/photos/peterloon.jpg",
+      "alt": "Lucy smiling at the Peterloon Scout event"
+    },
+    {
+      "title": "Scout Sunday",
+      "category": "Milestones",
+      "image": "assets/photos/scout-sunday.jpg",
+      "alt": "Lucy standing in uniform at the front of a church on Scout Sunday"
+    },
+    {
+      "title": "Coral discovery",
+      "category": "Sea Base",
+      "image": "assets/photos/seabase-coral.jpg",
+      "alt": "Lucy examining coral during a Florida Sea Base program"
+    },
+    {
+      "title": "Welcome to Sea Base",
+      "category": "Sea Base",
+      "image": "assets/photos/seabase-sign.jpg",
+      "alt": "Lucy beside the Florida Sea Base sign"
+    },
+    {
+      "title": "Building an underwater ROV",
+      "category": "Sea Base",
+      "image": "assets/photos/seabase-rov.jpg",
+      "alt": "Lucy and her crew holding their underwater ROV at Florida Sea Base"
+    },
+    {
+      "title": "Shell studies",
+      "category": "Sea Base",
+      "image": "assets/photos/seabase-shells.jpg",
+      "alt": "Lucy and fellow Scouts studying shells at Florida Sea Base"
+    },
+    {
+      "title": "Horsemanship",
+      "category": "Summer Camp",
+      "image": "assets/photos/summer-camp-horses.jpg",
+      "alt": "Lucy standing beside a horse at summer camp"
+    },
+    {
+      "title": "Summer camp 2024",
+      "category": "Summer Camp",
+      "image": "assets/photos/summer-camp-2024.jpg",
+      "alt": "Lucy relaxing beside a woodland trail at summer camp"
+    },
+    {
+      "title": "Summer camp 2025",
+      "category": "Summer Camp",
+      "image": "assets/photos/summer-camp-2025.jpg",
+      "alt": "Lucy smiling in her Scout uniform at summer camp"
+    },
+    {
+      "title": "Before sunrise",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/departure-night.jpg",
+      "alt": "Lucy preparing to depart for the National Scout Jamboree before sunrise"
+    },
+    {
+      "title": "The Jamboree crew",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/departure-crew.jpg",
+      "alt": "Lucy's Jamboree crew gathered for their early morning departure"
+    },
+    {
+      "title": "Welcome to the Summit",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/summit-sign.jpg",
+      "alt": "Lucy at the Summit Bechtel Reserve entrance sign"
+    },
+    {
+      "title": "Hands-on Scouting",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/hands-on-activity.jpg",
+      "alt": "Lucy participating in a hands-on Jamboree activity"
+    },
+    {
+      "title": "A new perspective",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/virtual-reality.jpg",
+      "alt": "Lucy trying a virtual reality experience at the Jamboree"
+    },
+    {
+      "title": "Across the Summit",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/summit-overlook.jpg",
+      "alt": "Lucy and fellow Scouts overlooking Summit Bechtel Reserve"
+    },
+    {
+      "title": "Shooting sports",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/shooting-sports.jpg",
+      "alt": "Lucy participating in shooting sports at the Jamboree"
+    },
+    {
+      "title": "On the range",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/shooting-sports-two.jpg",
+      "alt": "A Jamboree shooting sports activity"
+    },
+    {
+      "title": "Adventure course",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/adventure-course.jpg",
+      "alt": "Lucy and a fellow Scout wearing helmets for a Jamboree adventure activity"
+    },
+    {
+      "title": "Free high fives",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/high-five-challenge.jpg",
+      "alt": "Lucy carrying a handmade sign offering free high fives"
+    },
+    {
+      "title": "Cooking with the crew",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/camp-cooking.jpg",
+      "alt": "Lucy and fellow Scouts preparing food in their Jamboree campsite"
+    },
+    {
+      "title": "Camp treat",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/camp-treat.jpg",
+      "alt": "Lucy enjoying a frozen treat at the Jamboree"
+    },
+    {
+      "title": "Jamboree spirit",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/jamboree-spirit.jpg",
+      "alt": "Lucy celebrating the spirit of the National Scout Jamboree"
+    },
+    {
+      "title": "Friends from everywhere",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/camp-friends.jpg",
+      "alt": "Lucy smiling with friends in their Jamboree campsite"
+    },
+    {
+      "title": "The contingent",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/jamboree-contingent.jpg",
+      "alt": "Lucy gathered with a large group of Jamboree Scouts"
+    },
+    {
+      "title": "Together at the monument",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/troop-at-monument.jpg",
+      "alt": "Lucy's Jamboree contingent gathered at a Summit monument"
+    },
+    {
+      "title": "The Eagle in lights",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/eagle-drone-show.jpg",
+      "alt": "An Eagle Scout emblem formed by drones above the Jamboree arena"
+    },
+    {
+      "title": "The fleur-de-lis in lights",
+      "category": "National Jamboree",
+      "image": "assets/photos/jamboree/fleur-de-lis-drone-show.jpg",
+      "alt": "A Scouting fleur-de-lis formed by drones above the Jamboree arena"
+    }
+  ]
+}

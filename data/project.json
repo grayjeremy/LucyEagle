@@ -1,0 +1,85 @@
+{
+  "name": "Small Garden, Big Impact",
+  "beneficiary": "Anderson Park District",
+  "purpose": "At Johnson Hills Park, Lucy created eight micro-gardens with 62 native pollinator plants, showing visitors that even one or two native plants can make a meaningful difference.",
+  "details": [
+    { "label": "Place", "value": "Johnson Hills Park" },
+    { "label": "Project days", "value": "May 22–23, 2026" },
+    { "label": "Beneficiary", "value": "Anderson Park District" }
+  ],
+  "chapters": [
+    {
+      "title": "A garden anyone could imagine",
+      "body": "Lucy designed the project around a simple idea: helping pollinators should feel possible for everyone. Rather than one large display garden, she planned small native-plant groupings around the park to demonstrate how a home garden of any size can support biodiversity.",
+      "image": "assets/photos/project/garden-plan.webp",
+      "alt": "Native plants arranged in their planned locations around one of the garden beds",
+      "caption": "Planning the micro-gardens"
+    },
+    {
+      "title": "Turning a plan into support",
+      "body": "She built a detailed task chart, raised $2,250 through an online campaign, a restaurant fundraiser, neighborhood outreach, and the Anderson Township Pollinator Committee's Native Plant Initiative. Native Roots discounted the plants, while Trauth Landscaping donated part of the mulch and delivered it.",
+      "image": "assets/photos/project/plant-selection.webp",
+      "alt": "Lucy selecting plants at a local garden center",
+      "caption": "Selecting plants for the project"
+    },
+    {
+      "title": "Leading through delegation",
+      "body": "Lucy divided volunteers into patrols, briefed each patrol leader, and delegated work through them. The structure let her coordinate 41 people across several small planting sites while staying focused on safety, questions, and the bigger picture instead of doing every task herself.",
+      "image": "assets/photos/project/lucy-leading.webp",
+      "alt": "Lucy holding her project binder while volunteers work behind her",
+      "caption": "Directing the work crews"
+    },
+    {
+      "title": "Adapting in the rain",
+      "body": "Cold, wet weather required canopies and extra care to keep everyone safe. More volunteers arrived than expected, the planting areas became crowded, and the mulch delivery ran late. Lucy adjusted assignments, kept the groups moving, and stayed positive when the day did not follow the plan.",
+      "image": "assets/photos/project/volunteers-working.webp",
+      "alt": "Volunteers spreading mulch and working in the gardens around the manor",
+      "caption": "Building together despite the weather"
+    },
+    {
+      "title": "A living lesson in impact",
+      "body": "The completed project added eight micro-gardens and 62 native pollinator plants to Johnson Hills Park. The gardens bring color and biodiversity to the park, but their larger purpose is educational: each planting shows that a small patch of native plants can become part of a much bigger environmental impact.",
+      "image": "assets/photos/project/finished-garden.webp",
+      "alt": "The completed native pollinator gardens surrounding the historic manor",
+      "caption": "Eight gardens, one shared impact"
+    }
+  ],
+  "impact": [
+    { "value": 8, "label": "Micro-gardens" },
+    { "value": 62, "label": "Native plants" },
+    { "value": 41, "label": "People involved" },
+    { "value": 248, "label": "Total hours" }
+  ],
+  "gallery": [
+    {
+      "image": "assets/photos/project/site-ready.webp",
+      "alt": "Johnson Hills Park prepared for the project on a rainy morning",
+      "title": "Ready for the workday",
+      "category": "The site"
+    },
+    {
+      "image": "assets/photos/project/lucy-planting.webp",
+      "alt": "Lucy kneeling to place a native plant in one of the gardens",
+      "title": "Leading by example",
+      "category": "Planting"
+    },
+    {
+      "image": "assets/photos/project/hero.webp",
+      "alt": "Volunteers working together across the garden beds",
+      "title": "Many hands, one plan",
+      "category": "Teamwork"
+    },
+    {
+      "image": "assets/photos/project/garden-detail.webp",
+      "alt": "A close view of native plants in the freshly mulched garden",
+      "title": "Small garden",
+      "category": "The result"
+    },
+    {
+      "image": "assets/photos/project/project-complete.webp",
+      "alt": "Lucy seated beside the completed garden at Gelter Grove",
+      "title": "Big impact",
+      "category": "Project complete"
+    }
+  ]
+}

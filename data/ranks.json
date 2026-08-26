@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Scout",
+    "image": "assets/ranks/scout.png",
+    "date": "2024-06-25",
+    "displayDate": "June 25, 2024",
+    "milestone": "Demonstrated the Scout Oath, Scout Law, motto, slogan, and the foundations of the trail ahead."
+  },
+  {
+    "name": "Tenderfoot",
+    "image": "assets/ranks/tenderfoot.png",
+    "date": "2024-06-25",
+    "displayDate": "June 25, 2024",
+    "milestone": "Built essential Scout skills and completed the Tenderfoot fitness requirements."
+  },
+  {
+    "name": "Second Class",
+    "image": "assets/ranks/second-class.png",
+    "date": "2024-09-03",
+    "displayDate": "September 3, 2024",
+    "milestone": "Grew in confidence through camping, navigation, aquatics, and service."
+  },
+  {
+    "name": "First Class",
+    "image": "assets/ranks/first-class.png",
+    "date": "2024-10-01",
+    "displayDate": "October 1, 2024",
+    "milestone": "Mastered core Scout skills and began supporting new-Scout rank advancement."
+  },
+  {
+    "name": "Star",
+    "image": "assets/ranks/star.png",
+    "date": "2025-02-24",
+    "displayDate": "February 24, 2025",
+    "milestone": "Completed a position of responsibility and made service central to her Scout spirit."
+  },
+  {
+    "name": "Life",
+    "image": "assets/ranks/life.png",
+    "date": "2025-10-07",
+    "displayDate": "October 7, 2025",
+    "milestone": "Led with purpose while planning her Eagle Scout service project and completing Eagle-required merit badges."
+  },
+  {
+    "name": "Eagle",
+    "image": "assets/ranks/eagle.png",
+    "date": "2026-09",
+    "displayDate": "September 2026",
+    "milestone": "Earned Scouting's highest rank through leadership, character, and lasting service."
+  }
+]
