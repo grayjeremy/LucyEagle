@@ -139,8 +139,14 @@ h2 { margin: 0 0 1.5rem; font-size: clamp(3.4rem, 6vw, 6.4rem); line-height: .92
 .badge-note { margin-top: 3rem; color: rgba(255,255,255,.42); font-size: .7rem; text-align: center; }
 
 .featured-adventures { padding: clamp(6rem, 12vw, 11rem) var(--gutter); overflow: hidden; background: #f8f5ed; }
-.adventure-intro { width: min(1200px, 100%); margin: 0 auto clamp(5rem, 9vw, 9rem); display: flex; justify-content: space-between; align-items: end; gap: 3rem; }
+.adventure-intro { width: min(1200px, 100%); margin: 0 auto clamp(5rem, 9vw, 9rem); display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: clamp(3rem, 7vw, 7rem); }
 .adventure-intro-note { margin: 0; padding-left: 1.5rem; border-left: 1px solid var(--gold); color: var(--muted); font: italic 500 1.35rem/1.4 var(--serif); white-space: nowrap; }
+.adventure-intro-art { position: relative; width: 100%; height: clamp(280px, 28vw, 380px); margin: 0; }
+.adventure-intro-art img { position: absolute; z-index: 1; top: 50%; right: 0; width: 76%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 35%; box-shadow: 0 22px 55px rgba(7,27,43,.16); transform: translateY(-50%) rotate(2deg); }
+.compass-rose { position: absolute; top: 50%; left: 0; width: min(270px, 72%); aspect-ratio: 1; border: 1px solid rgba(199,163,90,.28); border-radius: 50%; color: rgba(199,163,90,.42); transform: translateY(-50%) rotate(-8deg); }
+.compass-rose::before { content: ""; position: absolute; inset: 13%; background: rgba(199,163,90,.14); clip-path: polygon(50% 0, 57% 42%, 100% 50%, 57% 58%, 50% 100%, 43% 58%, 0 50%, 43% 42%); }
+.compass-rose::after { content: ""; position: absolute; inset: 27%; border: 1px solid rgba(199,163,90,.24); border-radius: 50%; }
+.compass-rose span { position: absolute; top: -1.5rem; left: 50%; font: 600 .65rem var(--sans); letter-spacing: .2em; transform: translateX(-50%); }
 .adventure-feature { width: min(1280px, 100%); margin: 0 auto clamp(7rem, 12vw, 12rem); display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(3rem, 7vw, 7rem); align-items: center; }
 .adventure-feature:last-child { margin-bottom: 0; grid-template-columns: .8fr 1.2fr; }
 .adventure-feature.jamboree { margin-bottom: clamp(4rem, 7vw, 7rem); grid-template-columns: .8fr 1.2fr; }
@@ -302,6 +308,8 @@ h1 .hero-step:nth-child(2) { animation-delay: .86s; }
 
 @media (max-width: 850px) {
   .section-grid, .honor-roll { grid-template-columns: 1fr; }
+  .adventure-intro { grid-template-columns: 1fr; }
+  .adventure-intro-art { width: min(520px, 100%); margin: auto; }
   .invitation-feature { grid-template-columns: minmax(220px, .65fr) 1.35fr; gap: 2.5rem; }
   .photo-stack { min-height: 540px; }
   .adventure-feature, .adventure-feature:last-child { grid-template-columns: 1fr; }
@@ -348,6 +356,7 @@ h1 .hero-step:nth-child(2) { animation-delay: .86s; }
   .role { grid-template-columns: 2rem 1fr; }
   .role small { display: none; }
   .adventure-intro { display: block; }
+  .adventure-intro-art { height: 300px; margin-top: 3rem; }
   .adventure-intro-note { margin-top: 2rem; white-space: normal; }
   .adventure-photo { min-height: 52vh; }
   .adventure-collage { height: 620px; grid-template-rows: 1.15fr .85fr; gap: .45rem; }
