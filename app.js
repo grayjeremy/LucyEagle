@@ -1,8 +1,7 @@
 const DATA_FILES = [
-  "data/ranks.json?v=2",
+  "data/ranks.json?v=3",
   "data/merit-badges.json",
   "data/project.json?v=3",
-  "data/testimonials.json?v=2",
   "data/gallery.json?v=3",
 ];
 
@@ -29,7 +28,6 @@ function renderRanks(ranks) {
       <img class="rank-patch" src="${escapeHtml(rank.image)}" alt="${escapeHtml(rank.name)} rank patch" loading="lazy">
       <h3>${escapeHtml(rank.name)}</h3>
       <time datetime="${escapeHtml(rank.date)}">${escapeHtml(rank.displayDate)}</time>
-      <p>${escapeHtml(rank.milestone)}</p>
     </article>
   `).join("");
 }
@@ -51,16 +49,20 @@ function renderBadges(data) {
   document.querySelectorAll(".badge-total").forEach((counter) => {
     counter.dataset.count = data.badges.length;
   });
-  document.querySelector("#badge-grid").innerHTML = data.badges.map((badge, index) => `
+  document.querySelector("#badge-grid").innerHTML = data.badges.map((badge, index) => {
+    const slug = new URL(badge.url).pathname.split("/").filter(Boolean).pop();
+    const image = `assets/merit-badges/${slug}.webp?v=2`;
+    return `
     <a class="badge reveal" href="${escapeHtml(badge.url)}" target="_blank" rel="noopener noreferrer"
        style="transition-delay:${(index % 7) * 55}ms"
        aria-label="${escapeHtml(badge.name)} merit badge requirements (opens in a new tab)">
       <div class="badge-icon">
-        <img src="${escapeHtml(badge.image)}" alt="${escapeHtml(badge.name)} merit badge patch" loading="lazy">
+        <img src="${escapeHtml(image)}" alt="${escapeHtml(badge.name)} merit badge patch" loading="lazy">
       </div>
       <strong>${escapeHtml(badge.name)}</strong>
     </a>
-  `).join("");
+  `;
+  }).join("");
 }
 
 function renderProject(project) {
@@ -99,15 +101,6 @@ function renderProject(project) {
         <span>${escapeHtml(photo.category)}</span>
         <strong>${escapeHtml(photo.title)}</strong>
       </figcaption>
-    </figure>
-  `).join("");
-}
-
-function renderTestimonials(testimonials) {
-  document.querySelector("#testimonials").innerHTML = testimonials.map((testimonial, index) => `
-    <figure class="testimonial ${index === 0 ? "active" : ""}">
-      <blockquote>“${escapeHtml(testimonial.quote)}”</blockquote>
-      <figcaption><cite>${escapeHtml(testimonial.name)} · ${escapeHtml(testimonial.role)}</cite></figcaption>
     </figure>
   `).join("");
 }
@@ -232,19 +225,19 @@ function setupGallery() {
     const visibleItems = [...document.querySelectorAll("#gallery-grid .gallery-item:not([hidden])")];
     openLightbox(item, visibleItems);
   });
-  const jamboreeSection = document.querySelector(".featured-adventures");
-  jamboreeSection.addEventListener("click", (event) => {
-    const item = event.target.closest(".jamboree-gallery-item");
+  const adventuresSection = document.querySelector(".featured-adventures");
+  const getAdventureAlbum = (item) => [...adventuresSection.querySelectorAll(".adventure-gallery-item")]
+    .filter((albumItem) => albumItem.dataset.album === item.dataset.album);
+  adventuresSection.addEventListener("click", (event) => {
+    const item = event.target.closest(".adventure-gallery-item");
     if (!item) return;
-    const items = [...jamboreeSection.querySelectorAll(".jamboree-gallery-item")];
-    openLightbox(item, items);
+    openLightbox(item, getAdventureAlbum(item));
   });
-  jamboreeSection.addEventListener("keydown", (event) => {
-    const item = event.target.closest(".jamboree-gallery-item");
+  adventuresSection.addEventListener("keydown", (event) => {
+    const item = event.target.closest(".adventure-gallery-item");
     if (item && (event.key === "Enter" || event.key === " ")) {
       event.preventDefault();
-      const items = [...jamboreeSection.querySelectorAll(".jamboree-gallery-item")];
-      openLightbox(item, items);
+      openLightbox(item, getAdventureAlbum(item));
     }
   });
   const projectGallery = document.querySelector("#project-gallery");
@@ -298,17 +291,6 @@ function setupNavigation() {
   }));
 }
 
-function setupTestimonials() {
-  const quotes = document.querySelectorAll(".testimonial");
-  if (quotes.length < 2 || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  let active = 0;
-  setInterval(() => {
-    quotes[active].classList.remove("active");
-    active = (active + 1) % quotes.length;
-    quotes[active].classList.add("active");
-  }, 6000);
-}
-
 function setupScoutLawPoints() {
   const container = document.querySelector(".scout-law-points");
   if (!container) return;
@@ -326,18 +308,16 @@ function setupScoutLawPoints() {
 
 async function initialize() {
   try {
-    const [ranks, badges, project, testimonials, gallery] = await loadData();
+    const [ranks, badges, project, gallery] = await loadData();
     renderRanks(ranks);
     renderBadges(badges);
     renderProject(project);
-    renderTestimonials(testimonials);
     renderGallery(gallery);
     setupRevealAnimations();
     setupCounters();
     setupParallax();
     setupGallery();
     setupNavigation();
-    setupTestimonials();
     setupScoutLawPoints();
   } catch (error) {
     console.error(error);
