@@ -138,6 +138,34 @@ h2 { margin: 0 0 1.5rem; font-size: clamp(3.4rem, 6vw, 6.4rem); line-height: .92
 .badge strong { font: 500 .95rem/1.2 var(--serif); }
 .badge-note { margin-top: 3rem; color: rgba(255,255,255,.42); font-size: .7rem; text-align: center; }
 
+.whats-next { background: #ebe3d5; }
+.whats-next .section-heading.centered { margin-bottom: 4.5rem; }
+.future-roadmap { position: relative; width: min(1120px, 100%); margin: auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 4.5rem; }
+.future-roadmap::before { content: ""; display: none; }
+.future-stop { position: relative; min-height: 455px; padding: 0 clamp(1rem, 2.5vw, 2.5rem) 1rem; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.future-stop::after { content: ""; position: absolute; top: 116px; right: 0; left: 0; height: 1px; background: #cabfae; }
+.future-stop:nth-child(3n + 1)::after { left: 50%; }
+.future-stop:nth-child(3n)::after { right: 50%; }
+.future-stop::before { content: ""; position: absolute; z-index: 3; top: 110px; left: 50%; width: 13px; height: 13px; border: 3px solid #ebe3d5; border-radius: 50%; background: var(--sage); box-shadow: 0 0 0 1px var(--sage); transform: translateX(-50%); }
+.future-stop.complete::before { background: var(--gold); box-shadow: 0 0 0 1px var(--gold), 0 0 18px rgba(199,163,90,.45); }
+.future-visual { position: relative; z-index: 2; width: 170px; height: 138px; margin: 0 0 1.5rem; display: flex; align-items: center; justify-content: center; gap: .35rem; background: #ebe3d5; }
+.future-visual img { display: block; width: auto; max-width: 100%; height: 116px; object-fit: contain; filter: drop-shadow(0 7px 10px rgba(7,27,43,.13)); }
+.future-visual.paired img { width: calc(50% - .2rem); }
+.future-visual .future-knot { height: 68px; }
+.future-visual .future-photo { width: 150px; height: 108px; border: 5px solid rgba(255,255,255,.7); object-fit: cover; box-shadow: 0 10px 24px rgba(7,27,43,.14); }
+.future-visual .future-sash { height: 124px; }
+.future-status { margin-bottom: .8rem; color: var(--sage); font-size: .58rem; font-weight: 600; letter-spacing: .17em; text-transform: uppercase; }
+.future-stop.complete .future-status { color: #9a762e; }
+.future-stop h3 { margin: 0 0 .8rem; color: var(--navy); font-size: 1.5rem; line-height: 1.05; }
+.future-stop p { margin: 0 0 1.25rem; color: var(--muted); font-size: .8rem; line-height: 1.6; }
+.future-stop a { margin-top: auto; color: var(--navy); font-size: .58rem; font-weight: 600; letter-spacing: .09em; text-decoration-color: var(--gold); text-underline-offset: .3rem; text-transform: uppercase; }
+.future-stop a span { color: var(--gold); }
+.future-placeholder { grid-column: span 2; }
+.future-placeholder .future-visual { background: transparent; }
+.future-ellipsis { display: flex; gap: .65rem; }
+.future-ellipsis i { width: 9px; height: 9px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 7px rgba(199,163,90,.1); }
+.future-placeholder h3 { color: #836b3d; }
+
 .featured-adventures { padding: clamp(6rem, 12vw, 11rem) var(--gutter); overflow: hidden; background: #f8f5ed; }
 .adventure-intro { width: min(1200px, 100%); margin: 0 auto clamp(5rem, 9vw, 9rem); display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: clamp(3rem, 7vw, 7rem); }
 .adventure-intro-note { margin: 0; padding-left: 1.5rem; border-left: 1px solid var(--gold); color: var(--muted); font: italic 500 1.35rem/1.4 var(--serif); white-space: nowrap; }
@@ -353,6 +381,22 @@ h1 .hero-step:nth-child(2) { animation-delay: .86s; }
   .stat:nth-child(4) { border-top: 1px solid rgba(255,255,255,.12); }
   .stat strong { font-size: 2.2rem; }
   .badge-grid { grid-template-columns: repeat(3, 1fr); gap: 1.5rem .8rem; }
+  .future-roadmap { padding-left: 2rem; display: block; }
+  .future-roadmap::before { position: absolute; top: 0; right: auto; bottom: 0; left: 18px; width: 1px; height: auto; display: block; background: #cabfae; }
+  .future-stop { min-height: 0; padding: 0 0 4.5rem 2.5rem; display: grid; grid-template-columns: 80px 1fr; column-gap: 1.25rem; align-items: start; text-align: left; }
+  .future-stop::after { display: none; }
+  .future-stop::before { top: 47px; left: -14px; transform: none; }
+  .future-visual { grid-row: 1 / 5; width: 92px; height: 96px; margin: 0; }
+  .future-visual img { max-width: 100%; height: 84px; }
+  .future-visual.paired img { width: calc(50% - .2rem); }
+  .future-visual .future-knot { height: 48px; }
+  .future-visual .future-photo { width: 88px; height: 72px; border-width: 3px; }
+  .future-visual .future-sash { height: 88px; }
+  .future-status { margin: .2rem 0 .6rem; }
+  .future-stop h3, .future-stop p, .future-stop a { grid-column: 2; }
+  .future-stop h3 { font-size: 1.65rem; }
+  .future-stop a { margin-top: 0; }
+  .future-placeholder { grid-column: auto; }
   .role { grid-template-columns: 2rem 1fr; }
   .role small { display: none; }
   .adventure-intro { display: block; }

@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Eagle Scout",
+    "status": "Complete",
+    "images": [
+      { "src": "assets/future/eagle-medal.webp?v=2", "alt": "Eagle Scout medal", "kind": "medal" },
+      { "src": "assets/future/eagle-knot.webp?v=2", "alt": "Eagle Scout square knot", "kind": "knot" }
+    ],
+    "description": "Scouting's highest rank—and the foundation for a lifetime of leadership and service.",
+    "url": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/eagle-scout-workbook/",
+    "linkLabel": "Explore the Eagle journey"
+  },
+  {
+    "title": "Distinguished Conservation Service Award",
+    "status": "Almost there",
+    "images": [
+      { "src": "assets/future/conservation-medal.webp?v=2", "alt": "Distinguished Conservation Service Award medal", "kind": "medal" },
+      { "src": "assets/future/conservation-knot.webp", "alt": "Distinguished Conservation Service Award square knot", "kind": "knot" }
+    ],
+    "description": "Scouting's most distinguished recognition for exceptional conservation leadership and environmental service.",
+    "url": "https://www.scouting.org/awards/awards-central/bsa-distinguished-conservation-service-award/",
+    "linkLabel": "Explore the conservation award"
+  },
+  {
+    "title": "St. Thomas Sailing Adventure",
+    "status": "Planned Summer 2027",
+    "images": [
+      { "src": "assets/future/st-thomas-sailing.webp", "alt": "Scouts sailing in the waters near St. Thomas", "kind": "photo" }
+    ],
+    "description": "An offshore Sea Base journey built around sailing, crew responsibility, and life on Caribbean waters.",
+    "url": "https://seabaseha.org/scouts/adventures/",
+    "linkLabel": "Explore Sea Base adventures"
+  },
+  {
+    "title": "Venturing Summit Award",
+    "status": "On the horizon",
+    "images": [
+      { "src": "assets/future/summit-medal.webp?v=2", "alt": "Venturing Summit Award medal", "kind": "medal" },
+      { "src": "assets/future/summit-knot.webp?v=2", "alt": "Venturing Summit Award square knot", "kind": "knot" }
+    ],
+    "description": "Venturing's highest rank, recognizing adventure, service, leadership, mentoring, and personal growth.",
+    "url": "https://www.scouting.org/programs/venturing/venturing-awards-and-advancement/rank-advancement/summit-award/",
+    "linkLabel": "Explore the Summit Award"
+  },
+  {
+    "title": "Order of the Arrow Brotherhood and Vigil Honor",
+    "status": "A life of service",
+    "images": [
+      { "src": "assets/future/brotherhood-sash.webp", "alt": "Order of the Arrow Brotherhood sash", "kind": "sash" },
+      { "src": "assets/future/vigil-sash.webp?v=3", "alt": "Order of the Arrow Vigil Honor sash", "kind": "sash" }
+    ],
+    "description": "A continuing path of cheerful service—deepening her commitment through Brotherhood and aspiring to the Vigil Honor.",
+    "url": "https://oa-scouting.org/about/membership",
+    "linkLabel": "Learn about OA membership"
+  },
+  {
+    "title": "Sea Scout Quartermaster",
+    "status": "On the horizon",
+    "images": [
+      { "src": "assets/future/quartermaster-medal.webp?v=2", "alt": "Sea Scout Quartermaster medal", "kind": "medal" },
+      { "src": "assets/future/quartermaster-knot.webp?v=2", "alt": "Sea Scout Quartermaster square knot", "kind": "knot" }
+    ],
+    "description": "Sea Scouting's highest rank, earned through advanced seamanship, exceptional leadership, and service.",
+    "url": "https://seascout.org/advancement-central/",
+    "linkLabel": "Explore Quartermaster"
+  },
+  {
+    "title": "Pack 'n Paddle",
+    "status": "High adventure",
+    "images": [
+      { "src": "assets/future/pack-and-paddle.webp", "alt": "River and mountain landscape viewed from a bridge", "kind": "photo" }
+    ],
+    "description": "A Summit Bechtel trek combining rugged backpacking with an expedition on moving water.",
+    "url": "https://www.summitbsa.org/high-adventure/packnpaddle",
+    "linkLabel": "Explore Pack 'n Paddle"
+  }
+]

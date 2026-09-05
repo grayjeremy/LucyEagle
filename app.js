@@ -1,6 +1,7 @@
 const DATA_FILES = [
   "data/ranks.json?v=3",
   "data/merit-badges.json",
+  "data/whats-next.json?v=9",
   "data/project.json?v=3",
   "data/gallery.json?v=3",
 ];
@@ -63,6 +64,38 @@ function renderBadges(data) {
     </a>
   `;
   }).join("");
+}
+
+function renderRoadmap(items) {
+  const milestones = items.map((item, index) => {
+    const complete = item.status === "Complete";
+    const visual = item.images.map((image) => `
+      <img class="future-${escapeHtml(image.kind)}" src="${escapeHtml(image.src)}"
+        alt="${escapeHtml(image.alt)}" loading="lazy">
+    `).join("");
+    return `
+      <article class="future-stop reveal ${complete ? "complete" : ""}" style="transition-delay:${index * 65}ms">
+        <div class="future-visual ${item.images.length > 1 ? "paired" : "single"}">${visual}</div>
+        <span class="future-status">${complete ? "✓ " : ""}${escapeHtml(item.status)}</span>
+        <h3>${escapeHtml(item.title)}</h3>
+        <p>${escapeHtml(item.description)}</p>
+        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+          ${escapeHtml(item.linkLabel)} <span aria-hidden="true">↗</span>
+        </a>
+      </article>
+    `;
+  }).join("");
+  const moreToCome = `
+    <article class="future-stop future-placeholder reveal">
+      <div class="future-visual">
+        <span class="future-ellipsis" aria-hidden="true"><i></i><i></i><i></i></span>
+      </div>
+      <span class="future-status">The journey continues</span>
+      <h3>More adventures to come</h3>
+      <p>New challenges, new places, and new ways to lead are still ahead.</p>
+    </article>
+  `;
+  document.querySelector("#future-roadmap").innerHTML = milestones + moreToCome;
 }
 
 function renderProject(project) {
@@ -308,9 +341,10 @@ function setupScoutLawPoints() {
 
 async function initialize() {
   try {
-    const [ranks, badges, project, gallery] = await loadData();
+    const [ranks, badges, roadmap, project, gallery] = await loadData();
     renderRanks(ranks);
     renderBadges(badges);
+    renderRoadmap(roadmap);
     renderProject(project);
     renderGallery(gallery);
     setupRevealAnimations();
