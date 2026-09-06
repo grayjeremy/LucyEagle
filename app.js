@@ -1,7 +1,7 @@
 const DATA_FILES = [
   "data/ranks.json?v=3",
   "data/merit-badges.json",
-  "data/whats-next.json?v=9",
+  "data/whats-next.json?v=12",
   "data/project.json?v=3",
   "data/gallery.json?v=3",
 ];
@@ -312,16 +312,29 @@ function setupGallery() {
 function setupNavigation() {
   const header = document.querySelector("#site-header");
   const toggle = document.querySelector(".nav-toggle");
+  const navigation = document.querySelector(".site-nav");
+  const desktopNavigation = matchMedia("(min-width: 1121px)");
+  const closeNavigation = () => {
+    document.body.classList.remove("nav-open");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Open navigation");
+  };
+
   addEventListener("scroll", () => header.classList.toggle("scrolled", scrollY > 40), { passive: true });
   toggle.addEventListener("click", () => {
     const open = document.body.classList.toggle("nav-open");
     toggle.setAttribute("aria-expanded", open);
     toggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
   });
-  document.querySelectorAll(".site-nav a").forEach((link) => link.addEventListener("click", () => {
-    document.body.classList.remove("nav-open");
-    toggle.setAttribute("aria-expanded", "false");
-  }));
+  navigation.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeNavigation));
+  addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !document.body.classList.contains("nav-open")) return;
+    closeNavigation();
+    toggle.focus();
+  });
+  desktopNavigation.addEventListener("change", (event) => {
+    if (event.matches) closeNavigation();
+  });
 }
 
 function setupScoutLawPoints() {

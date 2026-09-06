@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://images.unsplash.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=31">
-    <script type="module" src="app.js?v=30"></script>
+    <link rel="stylesheet" href="styles.css?v=32">
+    <script type="module" src="app.js?v=34"></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -24,10 +24,10 @@
         <img class="brand-emblem" src="assets/eagle-scout-emblem.webp" alt="">
         <span>Lucy Gray</span>
       </a>
-      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation">
         <span></span><span></span>
       </button>
-      <nav class="site-nav" aria-label="Story sections">
+      <nav class="site-nav" id="site-navigation" aria-label="Story sections">
         <a href="#invitation">Invitation</a>
         <a href="#journey">Journey</a>
         <a href="#badges">Badges</a>
@@ -191,11 +191,6 @@
             <h3>Florida<br><em>Sea Base</em></h3>
             <p>At Florida Sea Base, Lucy and her crew became marine scientists in one of the country's most remarkable ecosystems. They studied coral and shells, explored the waters of the Florida Keys, and engineered an underwater remotely operated vehicle as a team.</p>
             <p>The Marine STEM Adventure combines science with conservation and high adventure. Scouts encounter mangroves, seagrass beds, and coral reefs while learning how researchers use fish surveys, coral restoration, species studies, reef monitoring, and tagging programs to protect ocean habitats.</p>
-            <ul class="adventure-highlights" aria-label="Florida Sea Base highlights">
-              <li><span>01</span>Hands-on marine science</li>
-              <li><span>02</span>Coral and ecosystem conservation</li>
-              <li><span>03</span>Underwater ROV engineering</li>
-            </ul>
             <a class="story-source" href="https://seabaseha.org/scouts/adventures/" target="_blank" rel="noopener noreferrer">Explore Sea Base Adventures <span aria-hidden="true">↗</span></a>
           </div>
         </article>
@@ -207,11 +202,6 @@
             <p>Before sunrise, Lucy left Cincinnati with her contingent and set out for something bigger than any single troop: a temporary city of Scouts in the mountains of West Virginia.</p>
             <p>At the Summit Bechtel Reserve, every day offered a new challenge. Lucy stepped onto shooting ranges, explored immersive technology, took on adventure activities, cooked with her crew, and met Scouts from across the country.</p>
             <p>But the Jamboree became more than its activities. It was high fives from strangers, friendships formed between campsites, and thousands of Scouts gathered beneath an Eagle and fleur-de-lis drawn across the night sky. Lucy returned home carrying a larger sense of what it means to belong to Scouting.</p>
-            <ul class="adventure-highlights" aria-label="National Scout Jamboree highlights">
-              <li><span>01</span>Adventure across the Summit</li>
-              <li><span>02</span>Friendships beyond Troop 1452</li>
-              <li><span>03</span>One nationwide Scout community</li>
-            </ul>
             <a class="story-source" href="https://jamboree.scouting.org/" target="_blank" rel="noopener noreferrer">Explore the National Scout Jamboree <span aria-hidden="true">↗</span></a>
           </div>
           <div class="adventure-collage reveal">

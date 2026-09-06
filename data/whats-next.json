@@ -32,6 +32,17 @@
     "linkLabel": "Explore Sea Base adventures"
   },
   {
+    "title": "Order of the Arrow Brotherhood and Vigil Honor",
+    "status": "Ordeal October 2026",
+    "images": [
+      { "src": "assets/future/brotherhood-sash.webp", "alt": "Order of the Arrow Brotherhood sash", "kind": "sash" },
+      { "src": "assets/future/vigil-sash.webp?v=3", "alt": "Order of the Arrow Vigil Honor sash", "kind": "sash" }
+    ],
+    "description": "A continuing path of cheerful service—deepening her commitment through Brotherhood and aspiring to the Vigil Honor.",
+    "url": "https://oa-scouting.org/about/membership",
+    "linkLabel": "Learn about OA membership"
+  },
+  {
     "title": "Venturing Summit Award",
     "status": "On the horizon",
     "images": [
@@ -41,17 +52,6 @@
     "description": "Venturing's highest rank, recognizing adventure, service, leadership, mentoring, and personal growth.",
     "url": "https://www.scouting.org/programs/venturing/venturing-awards-and-advancement/rank-advancement/summit-award/",
     "linkLabel": "Explore the Summit Award"
-  },
-  {
-    "title": "Order of the Arrow Brotherhood and Vigil Honor",
-    "status": "A life of service",
-    "images": [
-      { "src": "assets/future/brotherhood-sash.webp", "alt": "Order of the Arrow Brotherhood sash", "kind": "sash" },
-      { "src": "assets/future/vigil-sash.webp?v=3", "alt": "Order of the Arrow Vigil Honor sash", "kind": "sash" }
-    ],
-    "description": "A continuing path of cheerful service—deepening her commitment through Brotherhood and aspiring to the Vigil Honor.",
-    "url": "https://oa-scouting.org/about/membership",
-    "linkLabel": "Learn about OA membership"
   },
   {
     "title": "Sea Scout Quartermaster",
@@ -66,7 +66,7 @@
   },
   {
     "title": "Pack 'n Paddle",
-    "status": "High adventure",
+    "status": "Anyone interested?",
     "images": [
       { "src": "assets/future/pack-and-paddle.webp", "alt": "River and mountain landscape viewed from a bridge", "kind": "photo" }
     ],
