@@ -140,9 +140,9 @@ h2 { margin: 0 0 1.5rem; font-size: clamp(3.4rem, 6vw, 6.4rem); line-height: .92
 
 .whats-next { background: #ebe3d5; }
 .whats-next .section-heading.centered { margin-bottom: 4.5rem; }
-.future-roadmap { position: relative; width: min(1120px, 100%); margin: auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 4.5rem; }
+.future-roadmap { position: relative; width: min(1120px, 100%); margin: auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 2.5rem; }
 .future-roadmap::before { content: ""; display: none; }
-.future-stop { position: relative; min-height: 455px; padding: 0 clamp(1rem, 2.5vw, 2.5rem) 1rem; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.future-stop { position: relative; min-height: 0; padding: 0 clamp(1rem, 2.5vw, 2.5rem) 1rem; display: flex; flex-direction: column; align-items: center; text-align: center; }
 .future-stop::after { content: ""; position: absolute; top: 116px; right: 0; left: 0; height: 1px; background: #cabfae; }
 .future-stop:nth-child(3n + 1)::after { left: 50%; }
 .future-stop:nth-child(3n)::after { right: 50%; }
@@ -157,8 +157,8 @@ h2 { margin: 0 0 1.5rem; font-size: clamp(3.4rem, 6vw, 6.4rem); line-height: .92
 .future-status { margin-bottom: .8rem; color: var(--sage); font-size: .58rem; font-weight: 600; letter-spacing: .17em; text-transform: uppercase; }
 .future-stop.complete .future-status { color: #9a762e; }
 .future-stop h3 { margin: 0 0 .8rem; color: var(--navy); font-size: 1.5rem; line-height: 1.05; }
-.future-stop p { margin: 0 0 1.25rem; color: var(--muted); font-size: .8rem; line-height: 1.6; }
-.future-stop a { margin-top: auto; color: var(--navy); font-size: .58rem; font-weight: 600; letter-spacing: .09em; text-decoration-color: var(--gold); text-underline-offset: .3rem; text-transform: uppercase; }
+.future-stop p { margin: 0 0 1.5rem; color: var(--muted); font-size: .8rem; line-height: 1.6; }
+.future-stop a { margin-top: 0; color: var(--navy); font-size: .58rem; font-weight: 600; letter-spacing: .09em; text-decoration-color: var(--gold); text-underline-offset: .3rem; text-transform: uppercase; }
 .future-stop a span { color: var(--gold); }
 .future-placeholder { grid-column: span 2; }
 .future-placeholder .future-visual { background: transparent; }
