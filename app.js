@@ -1,7 +1,7 @@
 const DATA_FILES = [
   "data/ranks.json?v=3",
   "data/merit-badges.json",
-  "data/whats-next.json?v=12",
+  "data/whats-next.json?v=14",
   "data/project.json?v=4",
   "data/gallery.json?v=4",
 ];
@@ -85,8 +85,9 @@ function renderRoadmap(items) {
       </article>
     `;
   }).join("");
+  const remainingColumns = 3 - (items.length % 3);
   const moreToCome = `
-    <article class="future-stop future-placeholder reveal">
+    <article class="future-stop future-placeholder span-${remainingColumns} reveal">
       <div class="future-visual">
         <span class="future-ellipsis" aria-hidden="true"><i></i><i></i><i></i></span>
       </div>

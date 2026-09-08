@@ -14,12 +14,23 @@
     "title": "Distinguished Conservation Service Award",
     "status": "Almost there",
     "images": [
-      { "src": "assets/future/conservation-medal.webp?v=2", "alt": "Distinguished Conservation Service Award medal", "kind": "medal" },
+      { "src": "assets/future/conservation-medal.webp?v=2", "alt": "Distinguished Conservation Service Award medal", "kind": "large-medal" },
       { "src": "assets/future/conservation-knot.webp", "alt": "Distinguished Conservation Service Award square knot", "kind": "knot" }
     ],
     "description": "Scouting's most distinguished recognition for exceptional conservation leadership and environmental service.",
     "url": "https://www.scouting.org/awards/awards-central/bsa-distinguished-conservation-service-award/",
     "linkLabel": "Explore the conservation award"
+  },
+  {
+    "title": "Ad Altare Dei",
+    "status": "January 2027",
+    "images": [
+      { "src": "assets/future/ad-altare-dei-medal.webp", "alt": "Ad Altare Dei medal", "kind": "medal" },
+      { "src": "assets/future/ad-altare-dei-knot.webp", "alt": "Ad Altare Dei religious emblem square knot", "kind": "knot" }
+    ],
+    "description": "A Catholic religious emblem exploring the sacraments and deepening how faith guides her daily life and service.",
+    "url": "https://catholicscoutingamerica.org/religious-emblems/ad-altare-dei/",
+    "linkLabel": "Explore Ad Altare Dei"
   },
   {
     "title": "St. Thomas Sailing Adventure",
