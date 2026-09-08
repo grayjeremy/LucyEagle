@@ -2,8 +2,8 @@ const DATA_FILES = [
   "data/ranks.json?v=3",
   "data/merit-badges.json",
   "data/whats-next.json?v=12",
-  "data/project.json?v=3",
-  "data/gallery.json?v=3",
+  "data/project.json?v=4",
+  "data/gallery.json?v=4",
 ];
 
 const escapeHtml = (value) =>
