@@ -1,5 +1,5 @@
 const DATA_FILES = [
-  "data/ranks.json?v=3",
+  "data/ranks.json?v=4",
   "data/merit-badges.json",
   "data/whats-next.json?v=14",
   "data/project.json?v=4",
